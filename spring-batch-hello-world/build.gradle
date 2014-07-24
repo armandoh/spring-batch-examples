@@ -1,0 +1,25 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'commons-lang:commons-lang:2.6'
+    compile 'org.springframework.batch:spring-batch-core:3.0.1.RELEASE'
+    compile 'org.springframework.batch:spring-batch-infrastructure:3.0.1.RELEASE'
+    compile 'log4j:log4j:1.2.17'
+    compile 'org.springframework:spring-tx:3.2.1.RELEASE'
+    compile 'org.springframework:spring-jdbc:3.2.1.RELEASE'
+    compile 'hsqldb:hsqldb:1.8.0.7'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+task execute(type:JavaExec) {
+    main = "org.springframework.batch.core.launch.support.CommandLineJobRunner"
+    args = ["com.test.config.HelloWorldJobConfig", "helloWorldJob"]
+    classpath = sourceSets.main.runtimeClasspath
+}
