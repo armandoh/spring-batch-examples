@@ -1,0 +1,22 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework.batch:spring-batch-core:3.0.1.RELEASE'
+    compile 'org.springframework.batch:spring-batch-infrastructure:3.0.1.RELEASE'
+
+    compile 'log4j:log4j:1.2.17'
+
+}
+
+task execute(type:JavaExec) {
+    main = "org.springframework.batch.core.launch.support.CommandLineJobRunner"
+    args = ["com.test.batch.simple.config.SimpleConfig", "mainJob"]
+    classpath = sourceSets.main.runtimeClasspath
+}

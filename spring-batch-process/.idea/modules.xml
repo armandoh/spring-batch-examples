@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/multi-task/multi-task.iml" filepath="$PROJECT_DIR$/multi-task/multi-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-threading/multi-threading.iml" filepath="$PROJECT_DIR$/multi-threading/multi-threading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parallel/parallel.iml" filepath="$PROJECT_DIR$/parallel/parallel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/partition/partition.iml" filepath="$PROJECT_DIR$/partition/partition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-task/simple-task.iml" filepath="$PROJECT_DIR$/simple-task/simple-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-batch-process.iml" filepath="$PROJECT_DIR$/spring-batch-process.iml" />
+    </modules>
+  </component>
+</project>
+

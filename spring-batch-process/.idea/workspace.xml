@@ -1,0 +1,2223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88153df0-7a81-41d8-ab9e-4ded18907829" name="Default" comment="" />
+    <ignored path="spring-batch-process.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="spring-batch-process">
+      <favorite_root url="file://$PROJECT_DIR$/parallel" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/parallel/src" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/parallel/src/main" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/config" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/config/ParallelConfig.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/config/InfrastructureConfiguration.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/config/InfrastructureConfigurationImpl.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/domain" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/domain/User.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/writer" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/writer/LogItemWriter.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/tasklet" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/tasklet/DummyXTasklet.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/tasklet/DummyYTasklet.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/tasklet/SleepyTasklet.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/tasklet/WelcomeTasklet.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/tasklet/HelloWorldTasklet.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/listener" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/listener/TraceListener.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/listener/MainJobExecutionListener.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/processor" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/processor/FirstUserProcessor.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/processor/SecondUserProcessor.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                    </favorite_root>
+                  </favorite_root>
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/resources" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/resources/log4j.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/parallel/src/main/resources/dummy-metadata.csv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/parallel/src/test" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/parallel/src/test/java" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <favorite_root url="file://$PROJECT_DIR$/parallel/src/test/resources" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/parallel/build" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/config" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/config/parallel" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                          <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/config/parallel/ParallelConfig.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/config/parallel/InfrastructureConfiguration.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/config/parallel/InfrastructureConfigurationImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        </favorite_root>
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/config/partitioning" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                          <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/config/partitioning/Mdx3Config_Partitioning.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/config/partitioning/InfrastructureConfiguration.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                          <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/config/partitioning/InfrastructureConfigurationImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        </favorite_root>
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/domain" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/domain/User.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/writer" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/writer/LogItemWriter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/tasklet" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/tasklet/DummyXTasklet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/tasklet/DummyYTasklet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/tasklet/SleepyTasklet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/tasklet/WelcomeTasklet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/tasklet/HelloWorldTasklet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/listener" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/listener/TraceListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/listener/MainJonExecutionListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/processor" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/processor/FirstUserProcessor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/processor/SecondUserProcessor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/partitioner" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/parallel/partitioner/MultiFileResourcePartitioner.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                    </favorite_root>
+                    <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/config" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/config/ParallelConfig.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/config/InfrastructureConfiguration.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/config/InfrastructureConfigurationImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/domain" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/domain/User.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/writer" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/writer/LogItemWriter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/tasklet" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/tasklet/DummyXTasklet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/tasklet/DummyYTasklet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/tasklet/SleepyTasklet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/tasklet/WelcomeTasklet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/tasklet/HelloWorldTasklet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/listener" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/listener/TraceListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/listener/MainJonExecutionListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                      <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/processor" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/processor/FirstUserProcessor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                        <favorite_root url="file://$PROJECT_DIR$/parallel/build/classes/main/com/test/batch/partition/processor/SecondUserProcessor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                      </favorite_root>
+                    </favorite_root>
+                  </favorite_root>
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/parallel/build/resources" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/parallel/build/resources/main" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/parallel/build/resources/main/log4j.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/parallel/build/resources/main/dummy-metadata.csv" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/parallel/build/dependency-cache" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/parallel/.gradle" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/parallel/.gradle/2.0" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/parallel/.gradle/2.0/taskArtifacts" module="spring-batch-process" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/parallel/.gradle/2.0/taskArtifacts/fileHashes.bin" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/parallel/.gradle/2.0/taskArtifacts/cache.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/parallel/.gradle/2.0/taskArtifacts/fileSnapshots.bin" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/parallel/.gradle/2.0/taskArtifacts/taskArtifacts.bin" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/parallel/.gradle/2.0/taskArtifacts/outputFileStates.bin" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="file://$PROJECT_DIR$/parallel/.gradle/2.0/taskArtifacts/cache.properties.lock" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/parallel/build.gradle" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="PartitioningConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/config/PartitioningConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2448">
+              <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple-task.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple-task/simple-task.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simple-task/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.36876357" vertical-offset="0" max-vertical-offset="461">
+              <caret line="10" column="70" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dummy-metadata-2.csv" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partition/src/test/resources/dummy-metadata-2.csv">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="2669">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InfrastructureConfigurationImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/config/InfrastructureConfigurationImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partition/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MultiFileResourcePartitioner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/partitioner/MultiFileResourcePartitioner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <element signature="e#622#679#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="tasksExpandState">
+      <map>
+        <entry key="" value="true" />
+        <entry key=":multi-task/spring-batch-process/" value="false" />
+        <entry key=":multi-threading/spring-batch-process/" value="false" />
+        <entry key=":parallel/spring-batch-process/" value="false" />
+        <entry key=":partition/spring-batch-process/" value="true" />
+        <entry key=":partitioning/spring-batch-process/" value="false" />
+        <entry key="parallel/" value="false" />
+        <entry key="spring-batch-process/" value="true" />
+      </map>
+    </option>
+    <option name="recentTasks">
+      <list>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$/partition" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="execute" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$/parallel" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="build" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="execute" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="execute" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="clean" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+        <ExternalTaskExecutionInfo>
+          <option name="executorId" value="Run" />
+          <option name="settings">
+            <ExternalSystemSettings>
+              <option name="externalProjectPath" value="$PROJECT_DIR$" />
+              <option name="externalSystemIdString" value="GRADLE" />
+              <option name="taskNames">
+                <list>
+                  <option value="build" />
+                </list>
+              </option>
+            </ExternalSystemSettings>
+          </option>
+        </ExternalTaskExecutionInfo>
+      </list>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="spring-batch-process" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value=":parallel" />
+                <option name="path" value="$PROJECT_DIR$/parallel" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":multi-threading" />
+                <option name="path" value="$PROJECT_DIR$/multi-threading" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":partition" />
+                <option name="path" value="$PROJECT_DIR$/partition" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="spring-batch-process" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":simple-task" />
+                <option name="path" value="$PROJECT_DIR$/simple-task" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":multi-task" />
+                <option name="path" value="$PROJECT_DIR$/multi-task" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'test:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'main:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="execute" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/multi-task">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="execute" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'main:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'test:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-task" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/multi-threading">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="execute" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'main:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'test:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/parallel">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="execute" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'main:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'test:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/parallel" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/partition">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="execute" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'main:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'test:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/partition" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/simple-task">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'main:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles Java source 'test:java'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="execute" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'main:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes resources 'test:resources'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles classes 'test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/simple-task" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="9848851444000" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/multi-task">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/3.0.1.RELEASE/15b6d62886a3b789d4acefad804aa176ef77383b/spring-batch-core-3.0.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/3.0.1.RELEASE/df36f275f214ddeabc89a7331610284024f5e0bd/spring-batch-core-3.0.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/3.0.1.RELEASE/3dba289e4c69f7f79b46cf166871eb3cc972f17a/spring-batch-infrastructure-3.0.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/3.0.1.RELEASE/6c94e125534570b091526b224644237a52bede4b/spring-batch-infrastructure-3.0.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.jbatch/com.ibm.jbatch-tck-spi/1.0/d0d9dfa266ccf85d8384267b078881b8c4567626/com.ibm.jbatch-tck-spi-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.jbatch/com.ibm.jbatch-tck-spi/1.0/8ac869b0a60bff1a15eba0fb6398942410396938/com.ibm.jbatch-tck-spi-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.7/5db922f39e8bd8af65d4c4a9471fd94771e273d7/xstream-1.4.7-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.7/bce3282142b63068260f021fcbe48b72e8d71a1a/xstream-1.4.7.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.2/19b77eec2c68c40e35e569f4c86ae23c52d7cc6b/jettison-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.2/765a6181653f4b05c18c7a9e8f5c1f8269bf9b2/jettison-1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.5.RELEASE/2d8ec0d3a074b4a193c16312ab2cda105d87871f/spring-aop-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.5.RELEASE/d22abbbba78f7c8854fc39346cc99362272c5c90/spring-aop-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.5.RELEASE/589675b60574e292b76f8ef3bf36bec72a979e45/spring-beans-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.5.RELEASE/11e00022f109653ee0dbe16b59c26e19bd90fa08/spring-beans-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.5.RELEASE/aadd509610ea91906c177c33c22dd7e28df3b66/spring-context-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.5.RELEASE/98cd9a4b8bb0c695c0cfcc204cf804f433851cfe/spring-context-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.5.RELEASE/c8ccd8ae8bb85f917ef429d3cad37b1b36c92c49/spring-core-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.5.RELEASE/cce94116431b5a1384d58316a4090bbe7718fd5a/spring-core-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.0.5.RELEASE/a1334d0da26cd44f3930c8930be786cb13e8e9ec/spring-tx-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.0.5.RELEASE/bc94807ffcf9a6934428eb7ecdf9c37c41dd95a1/spring-tx-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.1.0.RELEASE/a4d1f3efa56fb5de5cdeea665b2d0e6137925803/spring-retry-1.1.0.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.1.0.RELEASE/f7e1ec1fd7c8fcaca490fd298c5b3fe711cb5ed9/spring-retry-1.1.0.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.batch/javax.batch-api/1.0/fdde8fdbf88afaa185558c711bd5cd6dfdd459f9/javax.batch-api-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.batch/javax.batch-api/1.0/65392d027a6eb369fd9fcd1b75cae150e25ac03c/javax.batch-api-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xmlpull/xmlpull/1.1.3.1/2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa/xmlpull-1.1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/fffe25ec1f20ec1cfdc0edd41c6e0d55bc0dbaf5/xpp3_min-1.1.4c-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/19d4e90b43059058f6e056f794f0ea4030d60b86/xpp3_min-1.1.4c.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.5.RELEASE/11f705f4d73aa2f074d32602fd6a80898fd50257/spring-expression-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.5.RELEASE/d7ddbc320c31c15cb3612ed64607e181c3b2d851/spring-expression-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/multi-task" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/multi-threading">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/3.0.1.RELEASE/15b6d62886a3b789d4acefad804aa176ef77383b/spring-batch-core-3.0.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/3.0.1.RELEASE/df36f275f214ddeabc89a7331610284024f5e0bd/spring-batch-core-3.0.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/3.0.1.RELEASE/3dba289e4c69f7f79b46cf166871eb3cc972f17a/spring-batch-infrastructure-3.0.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/3.0.1.RELEASE/6c94e125534570b091526b224644237a52bede4b/spring-batch-infrastructure-3.0.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.jbatch/com.ibm.jbatch-tck-spi/1.0/d0d9dfa266ccf85d8384267b078881b8c4567626/com.ibm.jbatch-tck-spi-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.jbatch/com.ibm.jbatch-tck-spi/1.0/8ac869b0a60bff1a15eba0fb6398942410396938/com.ibm.jbatch-tck-spi-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.7/5db922f39e8bd8af65d4c4a9471fd94771e273d7/xstream-1.4.7-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.7/bce3282142b63068260f021fcbe48b72e8d71a1a/xstream-1.4.7.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.2/19b77eec2c68c40e35e569f4c86ae23c52d7cc6b/jettison-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.2/765a6181653f4b05c18c7a9e8f5c1f8269bf9b2/jettison-1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.5.RELEASE/2d8ec0d3a074b4a193c16312ab2cda105d87871f/spring-aop-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.5.RELEASE/d22abbbba78f7c8854fc39346cc99362272c5c90/spring-aop-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.5.RELEASE/589675b60574e292b76f8ef3bf36bec72a979e45/spring-beans-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.5.RELEASE/11e00022f109653ee0dbe16b59c26e19bd90fa08/spring-beans-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.5.RELEASE/aadd509610ea91906c177c33c22dd7e28df3b66/spring-context-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.5.RELEASE/98cd9a4b8bb0c695c0cfcc204cf804f433851cfe/spring-context-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.5.RELEASE/c8ccd8ae8bb85f917ef429d3cad37b1b36c92c49/spring-core-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.5.RELEASE/cce94116431b5a1384d58316a4090bbe7718fd5a/spring-core-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.0.5.RELEASE/a1334d0da26cd44f3930c8930be786cb13e8e9ec/spring-tx-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.0.5.RELEASE/bc94807ffcf9a6934428eb7ecdf9c37c41dd95a1/spring-tx-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.1.0.RELEASE/a4d1f3efa56fb5de5cdeea665b2d0e6137925803/spring-retry-1.1.0.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.1.0.RELEASE/f7e1ec1fd7c8fcaca490fd298c5b3fe711cb5ed9/spring-retry-1.1.0.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.batch/javax.batch-api/1.0/fdde8fdbf88afaa185558c711bd5cd6dfdd459f9/javax.batch-api-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.batch/javax.batch-api/1.0/65392d027a6eb369fd9fcd1b75cae150e25ac03c/javax.batch-api-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xmlpull/xmlpull/1.1.3.1/2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa/xmlpull-1.1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/fffe25ec1f20ec1cfdc0edd41c6e0d55bc0dbaf5/xpp3_min-1.1.4c-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/19d4e90b43059058f6e056f794f0ea4030d60b86/xpp3_min-1.1.4c.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.5.RELEASE/11f705f4d73aa2f074d32602fd6a80898fd50257/spring-expression-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.5.RELEASE/d7ddbc320c31c15cb3612ed64607e181c3b2d851/spring-expression-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/multi-threading" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/parallel">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/3.0.1.RELEASE/15b6d62886a3b789d4acefad804aa176ef77383b/spring-batch-core-3.0.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/3.0.1.RELEASE/df36f275f214ddeabc89a7331610284024f5e0bd/spring-batch-core-3.0.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/3.0.1.RELEASE/3dba289e4c69f7f79b46cf166871eb3cc972f17a/spring-batch-infrastructure-3.0.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/3.0.1.RELEASE/6c94e125534570b091526b224644237a52bede4b/spring-batch-infrastructure-3.0.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.jbatch/com.ibm.jbatch-tck-spi/1.0/d0d9dfa266ccf85d8384267b078881b8c4567626/com.ibm.jbatch-tck-spi-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.jbatch/com.ibm.jbatch-tck-spi/1.0/8ac869b0a60bff1a15eba0fb6398942410396938/com.ibm.jbatch-tck-spi-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.7/5db922f39e8bd8af65d4c4a9471fd94771e273d7/xstream-1.4.7-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.7/bce3282142b63068260f021fcbe48b72e8d71a1a/xstream-1.4.7.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.2/19b77eec2c68c40e35e569f4c86ae23c52d7cc6b/jettison-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.2/765a6181653f4b05c18c7a9e8f5c1f8269bf9b2/jettison-1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.5.RELEASE/2d8ec0d3a074b4a193c16312ab2cda105d87871f/spring-aop-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.5.RELEASE/d22abbbba78f7c8854fc39346cc99362272c5c90/spring-aop-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.5.RELEASE/589675b60574e292b76f8ef3bf36bec72a979e45/spring-beans-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.5.RELEASE/11e00022f109653ee0dbe16b59c26e19bd90fa08/spring-beans-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.5.RELEASE/aadd509610ea91906c177c33c22dd7e28df3b66/spring-context-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.5.RELEASE/98cd9a4b8bb0c695c0cfcc204cf804f433851cfe/spring-context-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.5.RELEASE/c8ccd8ae8bb85f917ef429d3cad37b1b36c92c49/spring-core-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.5.RELEASE/cce94116431b5a1384d58316a4090bbe7718fd5a/spring-core-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.0.5.RELEASE/a1334d0da26cd44f3930c8930be786cb13e8e9ec/spring-tx-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.0.5.RELEASE/bc94807ffcf9a6934428eb7ecdf9c37c41dd95a1/spring-tx-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.1.0.RELEASE/a4d1f3efa56fb5de5cdeea665b2d0e6137925803/spring-retry-1.1.0.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.1.0.RELEASE/f7e1ec1fd7c8fcaca490fd298c5b3fe711cb5ed9/spring-retry-1.1.0.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.batch/javax.batch-api/1.0/fdde8fdbf88afaa185558c711bd5cd6dfdd459f9/javax.batch-api-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.batch/javax.batch-api/1.0/65392d027a6eb369fd9fcd1b75cae150e25ac03c/javax.batch-api-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xmlpull/xmlpull/1.1.3.1/2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa/xmlpull-1.1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/fffe25ec1f20ec1cfdc0edd41c6e0d55bc0dbaf5/xpp3_min-1.1.4c-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/19d4e90b43059058f6e056f794f0ea4030d60b86/xpp3_min-1.1.4c.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.5.RELEASE/11f705f4d73aa2f074d32602fd6a80898fd50257/spring-expression-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.5.RELEASE/d7ddbc320c31c15cb3612ed64607e181c3b2d851/spring-expression-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/parallel" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/partition">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/3.0.1.RELEASE/15b6d62886a3b789d4acefad804aa176ef77383b/spring-batch-core-3.0.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/3.0.1.RELEASE/df36f275f214ddeabc89a7331610284024f5e0bd/spring-batch-core-3.0.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/3.0.1.RELEASE/3dba289e4c69f7f79b46cf166871eb3cc972f17a/spring-batch-infrastructure-3.0.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/3.0.1.RELEASE/6c94e125534570b091526b224644237a52bede4b/spring-batch-infrastructure-3.0.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.jbatch/com.ibm.jbatch-tck-spi/1.0/d0d9dfa266ccf85d8384267b078881b8c4567626/com.ibm.jbatch-tck-spi-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.jbatch/com.ibm.jbatch-tck-spi/1.0/8ac869b0a60bff1a15eba0fb6398942410396938/com.ibm.jbatch-tck-spi-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.7/5db922f39e8bd8af65d4c4a9471fd94771e273d7/xstream-1.4.7-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.7/bce3282142b63068260f021fcbe48b72e8d71a1a/xstream-1.4.7.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.2/19b77eec2c68c40e35e569f4c86ae23c52d7cc6b/jettison-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.2/765a6181653f4b05c18c7a9e8f5c1f8269bf9b2/jettison-1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.5.RELEASE/2d8ec0d3a074b4a193c16312ab2cda105d87871f/spring-aop-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.5.RELEASE/d22abbbba78f7c8854fc39346cc99362272c5c90/spring-aop-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.5.RELEASE/589675b60574e292b76f8ef3bf36bec72a979e45/spring-beans-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.5.RELEASE/11e00022f109653ee0dbe16b59c26e19bd90fa08/spring-beans-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.5.RELEASE/aadd509610ea91906c177c33c22dd7e28df3b66/spring-context-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.5.RELEASE/98cd9a4b8bb0c695c0cfcc204cf804f433851cfe/spring-context-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.5.RELEASE/c8ccd8ae8bb85f917ef429d3cad37b1b36c92c49/spring-core-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.5.RELEASE/cce94116431b5a1384d58316a4090bbe7718fd5a/spring-core-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.0.5.RELEASE/a1334d0da26cd44f3930c8930be786cb13e8e9ec/spring-tx-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.0.5.RELEASE/bc94807ffcf9a6934428eb7ecdf9c37c41dd95a1/spring-tx-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.1.0.RELEASE/a4d1f3efa56fb5de5cdeea665b2d0e6137925803/spring-retry-1.1.0.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.1.0.RELEASE/f7e1ec1fd7c8fcaca490fd298c5b3fe711cb5ed9/spring-retry-1.1.0.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.batch/javax.batch-api/1.0/fdde8fdbf88afaa185558c711bd5cd6dfdd459f9/javax.batch-api-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.batch/javax.batch-api/1.0/65392d027a6eb369fd9fcd1b75cae150e25ac03c/javax.batch-api-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xmlpull/xmlpull/1.1.3.1/2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa/xmlpull-1.1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/fffe25ec1f20ec1cfdc0edd41c6e0d55bc0dbaf5/xpp3_min-1.1.4c-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/19d4e90b43059058f6e056f794f0ea4030d60b86/xpp3_min-1.1.4c.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.5.RELEASE/11f705f4d73aa2f074d32602fd6a80898fd50257/spring-expression-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.5.RELEASE/d7ddbc320c31c15cb3612ed64607e181c3b2d851/spring-expression-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/partition" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/partitioning">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/partitioning" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/simple-task">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/3.0.1.RELEASE/15b6d62886a3b789d4acefad804aa176ef77383b/spring-batch-core-3.0.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-core/3.0.1.RELEASE/df36f275f214ddeabc89a7331610284024f5e0bd/spring-batch-core-3.0.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/3.0.1.RELEASE/3dba289e4c69f7f79b46cf166871eb3cc972f17a/spring-batch-infrastructure-3.0.1.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.batch/spring-batch-infrastructure/3.0.1.RELEASE/6c94e125534570b091526b224644237a52bede4b/spring-batch-infrastructure-3.0.1.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.jbatch/com.ibm.jbatch-tck-spi/1.0/d0d9dfa266ccf85d8384267b078881b8c4567626/com.ibm.jbatch-tck-spi-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ibm.jbatch/com.ibm.jbatch-tck-spi/1.0/8ac869b0a60bff1a15eba0fb6398942410396938/com.ibm.jbatch-tck-spi-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.7/5db922f39e8bd8af65d4c4a9471fd94771e273d7/xstream-1.4.7-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.7/bce3282142b63068260f021fcbe48b72e8d71a1a/xstream-1.4.7.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.2/19b77eec2c68c40e35e569f4c86ae23c52d7cc6b/jettison-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.jettison/jettison/1.2/765a6181653f4b05c18c7a9e8f5c1f8269bf9b2/jettison-1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.5.RELEASE/2d8ec0d3a074b4a193c16312ab2cda105d87871f/spring-aop-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.5.RELEASE/d22abbbba78f7c8854fc39346cc99362272c5c90/spring-aop-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.5.RELEASE/589675b60574e292b76f8ef3bf36bec72a979e45/spring-beans-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.5.RELEASE/11e00022f109653ee0dbe16b59c26e19bd90fa08/spring-beans-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.5.RELEASE/aadd509610ea91906c177c33c22dd7e28df3b66/spring-context-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.5.RELEASE/98cd9a4b8bb0c695c0cfcc204cf804f433851cfe/spring-context-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.5.RELEASE/c8ccd8ae8bb85f917ef429d3cad37b1b36c92c49/spring-core-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.5.RELEASE/cce94116431b5a1384d58316a4090bbe7718fd5a/spring-core-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.0.5.RELEASE/a1334d0da26cd44f3930c8930be786cb13e8e9ec/spring-tx-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.0.5.RELEASE/bc94807ffcf9a6934428eb7ecdf9c37c41dd95a1/spring-tx-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.1.0.RELEASE/a4d1f3efa56fb5de5cdeea665b2d0e6137925803/spring-retry-1.1.0.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.1.0.RELEASE/f7e1ec1fd7c8fcaca490fd298c5b3fe711cb5ed9/spring-retry-1.1.0.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.batch/javax.batch-api/1.0/fdde8fdbf88afaa185558c711bd5cd6dfdd459f9/javax.batch-api-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.batch/javax.batch-api/1.0/65392d027a6eb369fd9fcd1b75cae150e25ac03c/javax.batch-api-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xmlpull/xmlpull/1.1.3.1/2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa/xmlpull-1.1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/fffe25ec1f20ec1cfdc0edd41c6e0d55bc0dbaf5/xpp3_min-1.1.4c-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/xpp3/xpp3_min/1.1.4c/19d4e90b43059058f6e056f794f0ea4030d60b86/xpp3_min-1.1.4c.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.5.RELEASE/11f705f4d73aa2f074d32602fd6a80898fd50257/spring-expression-4.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.5.RELEASE/d7ddbc320c31c15cb3612ed64607e181c3b2d851/spring-expression-4.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/simple-task" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="spring-batch-process" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/announce" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/antlr" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/base-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/base-services-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/build-comparison" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/build-init" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/cli" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/code-quality" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/core-impl" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/cpp" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/diagnostics" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/ear" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/ide" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/internal-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/ivy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/jacoco" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/javascript" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/jetty" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/language-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/language-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/launcher" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/maven" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/open-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/osgi" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/plugin-use" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/plugins" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/publish" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/reporting" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/resources" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/resources-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/signing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/sonar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/tooling-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/ui" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/src/wrapper" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/ant-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/ant-launcher-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-base-services-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-base-services-groovy-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-cli-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-core-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-docs-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-launcher-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-messaging-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-native-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-open-api-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-resources-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-tooling-api-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-ui-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/gradle-wrapper-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/groovy-all-2.3.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/ant-antlr-1.9.3.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-announce-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-antlr-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-build-comparison-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-build-init-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-code-quality-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-core-impl-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-cpp-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-diagnostics-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-ear-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-ide-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-ivy-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-jacoco-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-javascript-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-jetty-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-language-base-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-language-jvm-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-maven-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-osgi-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-plugin-use-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-plugins-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-publish-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-reporting-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-resources-http-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-scala-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-signing-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/gradle-sonar-2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-2.0-all/7rd4e4rcg4riqi0j6j508m2lbk/gradle-2.0/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/simple-task/build.gradle" />
+        <option value="$PROJECT_DIR$/multi-task/build.gradle" />
+        <option value="$PROJECT_DIR$/multi-threading/src/main/java/com/A.java" />
+        <option value="$PROJECT_DIR$/multi-threading/src/main/java/com/test/batch/multithread/processor/FirstUserProcessor.java" />
+        <option value="$PROJECT_DIR$/multi-task/src/main/java/com/test/batch/multitask/processor/FirstUserProcessor.java" />
+        <option value="$PROJECT_DIR$/multi-threading/src/main/java/com/test/batch/multithread/config/MultiThreadConfig.java" />
+        <option value="$PROJECT_DIR$/multi-threading/build.gradle" />
+        <option value="$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/config/parallel/ParallelConfig.java" />
+        <option value="$PROJECT_DIR$/partitioning/src/main/java/com/test/batch/partition/config/PartitionConfig.java" />
+        <option value="$PROJECT_DIR$/partitioning/src/main/java/com/test/batch/parallel/config/PartitionConfig.java" />
+        <option value="$PROJECT_DIR$/partitioning/build.gradle" />
+        <option value="$PROJECT_DIR$/parallel/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/processor/FirstUserProcessor.java" />
+        <option value="$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/processor/SecondUserProcessor.java" />
+        <option value="$PROJECT_DIR$/multi-task/src/main/java/com/test/batch/multitask/processor/SecondUserProcessor.java" />
+        <option value="$PROJECT_DIR$/multi-task/src/main/java/com/test/batch/multitask/writer/LogItemWriter.java" />
+        <option value="$PROJECT_DIR$/multi-threading/src/main/java/com/test/batch/multithread/writer/LogItemWriter.java" />
+        <option value="$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/writer/LogItemWriter.java" />
+        <option value="$PROJECT_DIR$/partition/build.gradle" />
+        <option value="$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/partitioner/MultiFileResourcePartitioner.java" />
+        <option value="$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/config/PartitioningConfig.java" />
+        <option value="$PROJECT_DIR$/partition/src/test/resources/dummy-metadata-2.csv" />
+        <option value="$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/config/InfrastructureConfigurationImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-batch-process" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-batch-process" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-batch-process" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-batch-process" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-batch-process" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simple-task" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/partition/src/main/resources" />
+      <recent name="$PROJECT_DIR$/partition/src/main" />
+      <recent name="$PROJECT_DIR$/parallel/src/main" />
+      <recent name="$PROJECT_DIR$/partitioning/src/main" />
+      <recent name="$PROJECT_DIR$/multi-threading/src/main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/partition/src/test/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.test.batch.partition.config" />
+      <recent name="com.test.batch.partition" />
+      <recent name="com.test.batch.parallel" />
+      <recent name="com.test.batch.parallel.config" />
+      <recent name="com.test.batch" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.spring-batch-process:partition [execute]">
+    <configuration default="false" name="spring-batch-process [execute]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="execute" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="spring-batch-process:multi-threading [execute]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/multi-threading" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="execute" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="spring-batch-process:parallel [execute]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/parallel" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="execute" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="parallel [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/parallel" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="spring-batch-process:partition [execute]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/partition" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="execute" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <RunnerSettings RunnerId="ExternalSystemTaskRunner" />
+      <ConfigurationWrapper RunnerId="ExternalSystemTaskRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Gradle.spring-batch-process [execute]" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.spring-batch-process:multi-threading [execute]" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.spring-batch-process:parallel [execute]" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.parallel [build]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.spring-batch-process:partition [execute]" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.spring-batch-process:partition [execute]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.parallel [build]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.spring-batch-process:parallel [execute]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.spring-batch-process:multi-threading [execute]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.spring-batch-process [execute]" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88153df0-7a81-41d8-ab9e-4ded18907829" name="Default" comment="" />
+      <created>1406941429350</created>
+      <updated>1406941429350</updated>
+      <workItem from="1406941432990" duration="5429000" />
+      <workItem from="1406985974193" duration="2325000" />
+      <workItem from="1407085990519" duration="7638000" />
+      <workItem from="1407158787468" duration="1789000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17181000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23269436" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2342918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43429846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/config/PartitioningConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2992">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/config/InfrastructureConfigurationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="408">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/partitioner/MultiFileResourcePartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#622#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/config/InfrastructureConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="306">
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/config/PartitioningConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2678" max-vertical-offset="3105">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-task/simple-task.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-task/src/main/java/com/test/batch/simple/writer/LogItemWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-task/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="349">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-task/src/main/java/com/test/batch/multitask/config/MultiTaskConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="93" max-vertical-offset="1830">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-task/src/main/java/com/test/batch/multitask/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-threading/src/main/java/com/test/batch/multithread/config/InfrastructureConfigurationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33167082" vertical-offset="2" max-vertical-offset="420">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-threading/src/main/java/com/test/batch/multithread/config/InfrastructureConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2402746" vertical-offset="0" max-vertical-offset="437">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-threading/src/main/java/com/test/batch/multithread/processor/FirstUserProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8817568" vertical-offset="174" max-vertical-offset="645">
+          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-threading/src/main/java/com/test/batch/multithread/processor/SecondUserProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.033783782" vertical-offset="140" max-vertical-offset="645">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-task/src/main/java/com/test/batch/simple/processor/LogUserProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.14864865" vertical-offset="149" max-vertical-offset="600">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-threading/src/main/java/com/test/batch/multithread/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23510972" vertical-offset="0" max-vertical-offset="615">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-threading/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-threading/src/main/resources/dummy-metadata.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-threading/src/main/java/com/test/batch/multithread/listener/MainJobExecutionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30094042" vertical-offset="144" max-vertical-offset="1215">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-threading/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-task/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parallel/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-batch-process.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parallel/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31615925" vertical-offset="0" max-vertical-offset="427">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="427">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/processor/SecondUserProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8032787" vertical-offset="47" max-vertical-offset="600">
+          <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/processor/FirstUserProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6674473" vertical-offset="105" max-vertical-offset="600">
+          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-task/src/main/java/com/test/batch/multitask/processor/FirstUserProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5550351" vertical-offset="153" max-vertical-offset="600">
+          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-task/src/main/java/com/test/batch/multitask/processor/SecondUserProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71662766" vertical-offset="84" max-vertical-offset="600">
+          <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-task/src/main/java/com/test/batch/multitask/writer/LogItemWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5620609" vertical-offset="0" max-vertical-offset="427">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/writer/LogItemWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.913349" vertical-offset="0" max-vertical-offset="525">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-threading/src/main/java/com/test/batch/multithread/writer/LogItemWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7025761" vertical-offset="90" max-vertical-offset="525">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parallel/src/main/java/com/test/batch/parallel/config/ParallelConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3146853" vertical-offset="0" max-vertical-offset="4335">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/config/InfrastructureConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi-threading/src/main/java/com/test/batch/multithread/config/MultiThreadConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37921348" vertical-offset="405" max-vertical-offset="1770">
+          <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/main/resources/dummy-metadata.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.1884985" vertical-offset="0" max-vertical-offset="2355">
+          <caret line="150" column="40" selection-start-line="150" selection-start-column="40" selection-end-line="150" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/test/resources/dummy-metadata-4.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/test/resources/dummy-metadata-3.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2355">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/test/resources/dummy-metadata-2.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="2669">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/partitioner/MultiFileResourcePartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#622#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/config/InfrastructureConfigurationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partition/src/main/java/com/test/batch/partition/config/PartitioningConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="2448">
+          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="433">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-task/simple-task.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple-task/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36876357" vertical-offset="0" max-vertical-offset="461">
+          <caret line="10" column="70" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

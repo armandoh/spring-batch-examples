@@ -1,0 +1,12 @@
+rootProject.name = 'spring-batch-process'
+
+include 'simple-task'
+
+include 'multi-task'
+
+include 'multi-threading'
+
+include 'parallel'
+
+include 'partition'
+
